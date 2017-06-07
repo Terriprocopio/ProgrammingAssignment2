@@ -1,7 +1,7 @@
 ## The goal of this project is to write a matrix function that includes a sub-set to inverse the matrix.
 ## Part two will cache the inverse of the matrix.
 
-## Function creates a matrix and includes a sub-set to inverse the matrix.
+## Part 1: Function creates a matrix and includes a sub-set to inverse the matrix.
 
 ## Main Cache Matrix function
 makeCacheMatrix <- function(x = matrix()) {
@@ -31,7 +31,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Cache function to compute inverse of MakeCache Function if i does not have a value
+## Part 2: Cache function to compute inverse of MakeCache Function if i does not have a value
 
 cacheSolve <- function(x, ...) {
         
